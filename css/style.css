@@ -8,8 +8,10 @@ body {
     font-family: 'Helvetica', 'Inter', sans-serif;
 }
 
+/* Header Section */
+
 .header {
-    background-color: #000;
+    background-color: #1f2937;
     margin: 10px;
     min-height: 120px;
     border-radius: 10px;
@@ -39,4 +41,82 @@ body {
 
 .header-links a:hover {
     color: #5c5c5c
+}
+
+/* Hero Section */
+
+.hero-section {
+    background-color: #1f2937;
+    margin: 10px;
+    height: 650px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-self: center;
+    align-items: center;
+    flex-grow: 0;
+    width: 35%;
+}
+
+.hero-heading,
+.hero-subtext {
+    color: aliceblue;
+}
+
+.hero-heading{
+    font-weight: bold;
+    font-size: 74px;
+}
+
+.hero-subtext {
+    font-size: 24px;
+}
+
+.hero-button {
+    align-self: flex-start;
+    padding: 12px 24px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    border: 2px solid #1f2937;
+    color: #1f2937;
+    font-weight: bold;
+}
+
+.hero-button:hover {
+    background-color: #2b3e58;
+    border: 2px solid aliceblue;
+    color: aliceblue;
+}
+
+.hero-image{
+    margin: 10px;
+}
+
+.hero-image img {
+    border-radius: 10px;
+    width: 700px;
+}
+
+
+/* Footer */
+
+.footer {
+    background-color: #000;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    color: aliceblue;
+    font-size: 16px;
 }
