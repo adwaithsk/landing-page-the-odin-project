@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica', 'Inter', sans-serif;
+}
+
+.header {
+    background-color: #000;
+    margin: 10px;
+    min-height: 120px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo {
+    flex-basis: 400px;
+    margin-left: 80px;
+}
+
+.header-links {
+    list-style: none;
+    margin-right: 80px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.header-links a {
+     text-decoration: none;
+     font-size: 32px;
+     font-weight: bold;
+     color: aliceblue;
+}
+
+.header-links a:hover {
+    color: #5c5c5c
+}
