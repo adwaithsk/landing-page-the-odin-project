@@ -117,10 +117,6 @@ body {
     margin: 40px 40px;
 }
 
-.about-heading {
-
-}
-
 .about-items {
     display: flex;
     justify-content: space-around;
@@ -181,6 +177,47 @@ body {
 
 /* Call To Action */
 
+.cta-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.cta {
+    width: 1200px;
+    background-color: #1f2937;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.cta-text {
+    color: aliceblue;
+    width: 800px;
+}
+
+.cta-heading {
+    font-size: 32px;
+}
+
+.cta-btn {
+    padding: 12px 24px;
+    border-radius: 10px;
+    background-color: #1f2937;
+    border: 2px solid aliceblue;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.cta-btn:hover {
+    background-color: aliceblue;
+    border: 2px solid #1f2937;
+    color: #1f2937;
+}
 
 /* Footer */
 
